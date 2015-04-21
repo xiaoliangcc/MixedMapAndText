@@ -21,9 +21,9 @@
 #warning mark - 以下是通过属性字符串的分类实现的图文混排
     UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(0, 0,320, 400)];
     label.numberOfLines = 0;
-    label.backgroundColor = [UIColor orangeColor];
+    label.backgroundColor = [UIColor whiteColor];
     
-    label.text = @"女神:在吗?s014s014s014s014s014s014s014s014我想你了 s010约吗? s014 ahajbsjdbs012";
+    label.text = @"女神:在吗?s014s014s014s014s014s014s014s014我想你了 s010约吗? s014 ahajbsjdbs012我们家没人  在吗?s014s014s014s014s014s014s014s014我想你了 s010约吗? s014 ahajbsjdbs012在吗?s014s014s014s014s014s014s014s014我想你了 s010约吗? s014 ahajbsjdbs012在吗?s014s014s014s014s014s014s014s014我想你了 s010约吗? s014 ahajbsjdbs012在吗?s014s014s014s014s014s014s014s014我想你了 s010约吗? s014 ahajbsjdbs012";
     
     //初始化属性字符串
     NSMutableAttributedString *mAttributedString = [[NSMutableAttributedString alloc]initWithString:label.text];
