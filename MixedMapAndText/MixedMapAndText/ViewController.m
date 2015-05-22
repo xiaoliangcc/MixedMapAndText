@@ -16,6 +16,12 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+    
+    
+    NSLog(@"添加了add");
+    
+    
+    
     [super viewDidLoad];
 #warning mark - 以下是通过属性字符串的分类实现的图文混排
     UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(0, 0,320, 400)];
